@@ -40,7 +40,7 @@ func Depression(f form.Form) int {
 		score += ToScale(response)
 	}
 
-	return score
+	return score * 2
 }
 
 func Anxiety(f form.Form) int {
@@ -53,7 +53,7 @@ func Anxiety(f form.Form) int {
 		score += ToScale(response)
 	}
 
-	return score
+	return score * 2
 }
 
 func Stress(f form.Form) int {
@@ -66,7 +66,7 @@ func Stress(f form.Form) int {
 		score += ToScale(response)
 	}
 
-	return score
+	return score * 2
 }
 
 func ToScale(response string) int {

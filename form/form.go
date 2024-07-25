@@ -78,6 +78,8 @@ func CreateForm(data []string) Form {
 			f.Q19 = field
 		case 21:
 			f.Q20 = field
+		case 22:
+			f.Q21 = field
 		}
 	}
 	return f
